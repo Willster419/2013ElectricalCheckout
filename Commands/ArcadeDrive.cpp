@@ -8,6 +8,7 @@
 // update. Deleting the comments indicating the section will prevent
 // it from being updated in th future.
 #include "ArcadeDrive.h"
+#include <stdio.h>
 ArcadeDrive::ArcadeDrive() {
 	// Use requires() here to declare subsystem dependencies
 	// eg. requires(chassis);
@@ -22,6 +23,7 @@ void ArcadeDrive::Initialize() {
 // Called repeatedly when this Command is scheduled to run
 void ArcadeDrive::Execute() {
 	Robot::driveTrain->Drive_with_joy( Robot::oi->getJoystick());
+	printf ("willster was hear\n");
 }
 // Make this return true when this Command no longer needs to run execute()
 bool ArcadeDrive::IsFinished() {
