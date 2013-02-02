@@ -249,10 +249,5 @@
                 <folder name="/frcteam1073-electrical.electricalcheckout" recursive="true"/>
             </contents>
         </buildtarget>
-        <buildtarget buildtool="Partial Image Linker" name="CommandBassedRobotTemplate_partialImage" passed="true" targetname="CommandBassedRobotTemplate_partialImage">
-            <contents>
-                <folder name="/frcteam1073-electrical.electricalcheckout" recursive="true"/>
-            </contents>
-        </buildtarget>
     </buildtargets>
 </wrxml>
