@@ -20,7 +20,7 @@
  *
  *
  * @author ExampleAuthor
- */
+*/
 class ShootDriveDown: public Command {
 public:
 	ShootDriveDown();
@@ -32,3 +32,4 @@ public:
 };
 
 #endif
+

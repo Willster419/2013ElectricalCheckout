@@ -36,7 +36,7 @@ void RobotMap::init() {
 	shootermainShooter = new CANJaguar(5);
 	
 	
-	shootersupportShooter = new CANJaguar(7);
+	shootersupportShooter = new CANJaguar(4);
 	
 	
 	angleCheckWithGyroGyro1 = new Gyro(1, 1);

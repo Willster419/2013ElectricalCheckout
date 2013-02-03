@@ -13,7 +13,7 @@ void _GLOBAL__I__ZN17AutonomousCommandC2Ev();
 
 void _GLOBAL__I__ZN17RandomArcadeDriveC2Ev();
 
-void _GLOBAL__I_WilliesSpeed();
+void _GLOBAL__I__ZN14ShootDriveDownC2Ev();
 
 void _GLOBAL__I__ZN12ShootDriveUpC2Ev();
 
@@ -83,7 +83,7 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN11ArcadeDriveC2Ev,
     _GLOBAL__I__ZN17AutonomousCommandC2Ev,
     _GLOBAL__I__ZN17RandomArcadeDriveC2Ev,
-    _GLOBAL__I_WilliesSpeed,
+    _GLOBAL__I__ZN14ShootDriveDownC2Ev,
     _GLOBAL__I__ZN12ShootDriveUpC2Ev,
     _GLOBAL__I__ZN11report_gyroC2Ev,
     _GLOBAL__I__ZN2OIC2Ev,
@@ -124,7 +124,7 @@ void _GLOBAL__D__ZN17AutonomousCommandC2Ev();
 
 void _GLOBAL__D__ZN17RandomArcadeDriveC2Ev();
 
-void _GLOBAL__D_WilliesSpeed();
+void _GLOBAL__D__ZN14ShootDriveDownC2Ev();
 
 void _GLOBAL__D__ZN12ShootDriveUpC2Ev();
 
@@ -186,7 +186,7 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN11ArcadeDriveC2Ev,
     _GLOBAL__D__ZN17AutonomousCommandC2Ev,
     _GLOBAL__D__ZN17RandomArcadeDriveC2Ev,
-    _GLOBAL__D_WilliesSpeed,
+    _GLOBAL__D__ZN14ShootDriveDownC2Ev,
     _GLOBAL__D__ZN12ShootDriveUpC2Ev,
     _GLOBAL__D__ZN11report_gyroC2Ev,
     _GLOBAL__D__ZN2OIC2Ev,

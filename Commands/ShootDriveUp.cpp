@@ -8,7 +8,7 @@
 // update. Deleting the comments indicating the section will prevent
 // it from being updated in th future.
 #include "ShootDriveUp.h"
-extern float WilliesSpeed;
+//extern float WilliesSpeed;
 ShootDriveUp::ShootDriveUp() {
 	// Use requires() here to declare subsystem dependencies
 	// eg. requires(chassis);
@@ -18,16 +18,21 @@ ShootDriveUp::ShootDriveUp() {
 }
 // Called just before this Command runs the first time
 void ShootDriveUp::Initialize() {
-	WilliesSpeed += 0.10;
-	RobotMap::shootermainShooter->Set(WilliesSpeed);	
+//	WilliesSpeed += 0.10;	
+//	printf ("up=%f\n", WilliesSpeed);
+	Robot::shooter->SetSpeed(Robot::shooter->GetSpeed()+0.10);
+	printf ("up=%f\n", Robot::shooter->GetSpeed());
+
 }
 // Called repeatedly when this Command is scheduled to run
 void ShootDriveUp::Execute() {
-	
+	RobotMap::shootermainShooter->Set(Robot::shooter->GetSpeed());
+	RobotMap::shootersupportShooter->Set(Robot::shooter->GetSpeed());
 }
 // Make this return true when this Command no longer needs to run execute()
 bool ShootDriveUp::IsFinished() {
-	return false;
+	printf("ShootDriveUp IsFinished\n");
+	return true;
 }
 // Called once after isFinished returns true
 void ShootDriveUp::End() {
@@ -37,3 +42,4 @@ void ShootDriveUp::End() {
 // subsystems is scheduled to run
 void ShootDriveUp::Interrupted() {
 }
+

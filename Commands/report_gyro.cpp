@@ -8,7 +8,6 @@
 // update. Deleting the comments indicating the section will prevent
 // it from being updated in th future.
 #include "report_gyro.h"
-//#include "../Subsystems/AngleCheckWithGyro.h"
 report_gyro::report_gyro() {
 	// Use requires() here to declare subsystem dependencies
 	// eg. requires(chassis);
@@ -18,12 +17,10 @@ report_gyro::report_gyro() {
 }
 // Called just before this Command runs the first time
 void report_gyro::Initialize() {
-	//float angg;
+	
 }
 // Called repeatedly when this Command is scheduled to run
 void report_gyro::Execute() {
-	float angg;
-	angg = Robot::angleCheckWithGyro->readGyroAngle();
 	
 }
 // Make this return true when this Command no longer needs to run execute()
