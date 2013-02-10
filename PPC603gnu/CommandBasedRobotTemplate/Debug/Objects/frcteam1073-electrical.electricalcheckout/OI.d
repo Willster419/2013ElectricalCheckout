@@ -393,10 +393,13 @@
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/AngleCheckWithGyro.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/ClimberCheck.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Collector.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/DriveTrain.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Shooter.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../OI.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePole.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/RandomArcadeDrive.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveDown.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveUp.h \
@@ -1186,6 +1189,10 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/ClimberCheck.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Collector.h:
+
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/DriveTrain.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Shooter.h:
@@ -1193,6 +1200,8 @@ C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Sub
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../OI.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePole.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/RandomArcadeDrive.h:
 

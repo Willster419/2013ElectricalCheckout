@@ -1,7 +1,7 @@
  \
- CommandBasedRobotTemplate/Debug/Objects/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.o:  \
- C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.cpp \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.h \
+ CommandBasedRobotTemplate/Debug/Objects/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePole.o:  \
+ C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePole.cpp \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePole.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/ErrorBase.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Base.h \
@@ -383,6 +383,8 @@
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../RobotMap.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Commands/AutonomousCommand.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Commands/../Robot.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/AngleCheckWithGyro.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
@@ -392,7 +394,7 @@
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Shooter.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../OI.h
 
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.h:
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePole.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
@@ -1155,6 +1157,10 @@ C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Rob
 C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Commands/AutonomousCommand.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Commands/../Robot.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/AngleCheckWithGyro.h:
 

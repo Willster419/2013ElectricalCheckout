@@ -20,7 +20,6 @@ ShootDriveUp::ShootDriveUp() {
 void ShootDriveUp::Initialize() {
 	Robot::shooter->SetSpeed(Robot::shooter->GetSpeed()+0.10);
 	printf ("up=%f\n", Robot::shooter->GetSpeed());
-
 }
 // Called repeatedly when this Command is scheduled to run
 void ShootDriveUp::Execute() {
@@ -40,4 +39,3 @@ void ShootDriveUp::End() {
 // subsystems is scheduled to run
 void ShootDriveUp::Interrupted() {
 }
-
