@@ -1,7 +1,7 @@
  \
- CommandBasedRobotTemplate/Debug/Objects/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/ArcadeDrive.o:  \
- C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/ArcadeDrive.cpp \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/ArcadeDrive.h \
+ CommandBassedRobotTemplate_partialImage/Debug/Objects/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.o:  \
+ C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.cpp \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/ErrorBase.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Base.h \
@@ -109,7 +109,7 @@
   C:/WindRiver/vxworks-6.3/target/h/WPILib/networktables2/type/ComplexData.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/tables/ITableListener.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/tables/ITable.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Robot.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Robot.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
   c:/windriver/gnu/3.4.4-vxworks-6.3/x86-win32/lib/gcc/../../../x86-win32/include/c++/3.4.4/iostream.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Accelerometer.h \
@@ -380,20 +380,17 @@
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/ColorImage.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPIErrors.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Command.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../RobotMap.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../RobotMap.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Commands/AutonomousCommand.h \
-  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Commands/../Robot.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Subsystems/AngleCheckWithGyro.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Commands/AutonomousCommand.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/AngleCheckWithGyro.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Subsystems/DriveTrain.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Subsystems/Shooter.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../OI.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Subsystems/DriveTrain.h
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/DriveTrain.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Shooter.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../OI.h
 
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/ArcadeDrive.h:
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
@@ -609,7 +606,7 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/tables/ITableListener.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/tables/ITable.h:
 
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Robot.h:
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Robot.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
@@ -1151,26 +1148,20 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/WPIErrors.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Command.h:
 
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../RobotMap.h:
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../RobotMap.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h:
 
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Commands/AutonomousCommand.h:
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Commands/AutonomousCommand.h:
 
-C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
-
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Commands/../Robot.h:
-
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Subsystems/AngleCheckWithGyro.h:
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/AngleCheckWithGyro.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Subsystems/DriveTrain.h:
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/DriveTrain.h:
 
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Subsystems/Shooter.h:
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Shooter.h:
 
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../OI.h:
-
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckoutBACKUP/Commands/../Subsystems/DriveTrain.h:
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../OI.h:
