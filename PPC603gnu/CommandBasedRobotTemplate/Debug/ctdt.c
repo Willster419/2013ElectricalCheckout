@@ -11,7 +11,11 @@ void _GLOBAL__I__ZN11ArcadeDriveC2Ev();
 
 void _GLOBAL__I__ZN17AutonomousCommandC2Ev();
 
-void _GLOBAL__I__ZN12ClimbThePoleC2Ev();
+void _GLOBAL__I__ZN16ClimbThePoleDownC2Ev();
+
+void _GLOBAL__I__ZN14ClimbThePoleUpC2Ev();
+
+void _GLOBAL__I__ZN15CollectTheDisksC2Ev();
 
 void _GLOBAL__I__ZN17RandomArcadeDriveC2Ev();
 
@@ -25,11 +29,11 @@ void _GLOBAL__I__ZN2OIC2Ev();
 
 void _GLOBAL__I__ZN5Robot2oiE();
 
-void _GLOBAL__I__ZN8RobotMap28climberCheckSpeedController1E();
+void _GLOBAL__I__ZN8RobotMap23climberSpeedController1E();
 
 void _GLOBAL__I__ZN18AngleCheckWithGyroC2Ev();
 
-void _GLOBAL__I__ZN12ClimberCheckC2Ev();
+void _GLOBAL__I__ZN7ClimberC2Ev();
 
 void _GLOBAL__I__ZN9CollectorC2Ev();
 
@@ -44,6 +48,8 @@ void _GLOBAL__I__ZN9Scheduler9_instanceE();
 void _GLOBAL__I__ZN11WaitCommandC2Ed();
 
 void _GLOBAL__I_wpi_error_s_ModuleIndexOutOfRange();
+
+void _GLOBAL__I__ZN10LiveWindow10m_instanceE();
 
 void _GLOBAL__I__ZN17MotorSafetyHelper12m_headHelperE();
 
@@ -88,16 +94,18 @@ void (*_ctors[])() =
     {
     _GLOBAL__I__ZN11ArcadeDriveC2Ev,
     _GLOBAL__I__ZN17AutonomousCommandC2Ev,
-    _GLOBAL__I__ZN12ClimbThePoleC2Ev,
+    _GLOBAL__I__ZN16ClimbThePoleDownC2Ev,
+    _GLOBAL__I__ZN14ClimbThePoleUpC2Ev,
+    _GLOBAL__I__ZN15CollectTheDisksC2Ev,
     _GLOBAL__I__ZN17RandomArcadeDriveC2Ev,
     _GLOBAL__I__ZN14ShootDriveDownC2Ev,
     _GLOBAL__I__ZN12ShootDriveUpC2Ev,
     _GLOBAL__I__ZN11report_gyroC2Ev,
     _GLOBAL__I__ZN2OIC2Ev,
     _GLOBAL__I__ZN5Robot2oiE,
-    _GLOBAL__I__ZN8RobotMap28climberCheckSpeedController1E,
+    _GLOBAL__I__ZN8RobotMap23climberSpeedController1E,
     _GLOBAL__I__ZN18AngleCheckWithGyroC2Ev,
-    _GLOBAL__I__ZN12ClimberCheckC2Ev,
+    _GLOBAL__I__ZN7ClimberC2Ev,
     _GLOBAL__I__ZN9CollectorC2Ev,
     _GLOBAL__I__ZN10DriveTrainC2Ev,
     _GLOBAL__I__ZN7ShooterC2Ev,
@@ -105,6 +113,7 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN9Scheduler9_instanceE,
     _GLOBAL__I__ZN11WaitCommandC2Ed,
     _GLOBAL__I_wpi_error_s_ModuleIndexOutOfRange,
+    _GLOBAL__I__ZN10LiveWindow10m_instanceE,
     _GLOBAL__I__ZN17MotorSafetyHelper12m_headHelperE,
     _GLOBAL__I__ZN8Notifier21kTimerInterruptNumberE,
     _GLOBAL__I__ZN8Resource12m_createLockE,
@@ -131,7 +140,11 @@ void _GLOBAL__D__ZN11ArcadeDriveC2Ev();
 
 void _GLOBAL__D__ZN17AutonomousCommandC2Ev();
 
-void _GLOBAL__D__ZN12ClimbThePoleC2Ev();
+void _GLOBAL__D__ZN16ClimbThePoleDownC2Ev();
+
+void _GLOBAL__D__ZN14ClimbThePoleUpC2Ev();
+
+void _GLOBAL__D__ZN15CollectTheDisksC2Ev();
 
 void _GLOBAL__D__ZN17RandomArcadeDriveC2Ev();
 
@@ -145,11 +158,11 @@ void _GLOBAL__D__ZN2OIC2Ev();
 
 void _GLOBAL__D__ZN5Robot2oiE();
 
-void _GLOBAL__D__ZN8RobotMap28climberCheckSpeedController1E();
+void _GLOBAL__D__ZN8RobotMap23climberSpeedController1E();
 
 void _GLOBAL__D__ZN18AngleCheckWithGyroC2Ev();
 
-void _GLOBAL__D__ZN12ClimberCheckC2Ev();
+void _GLOBAL__D__ZN7ClimberC2Ev();
 
 void _GLOBAL__D__ZN9CollectorC2Ev();
 
@@ -200,16 +213,18 @@ void (*_dtors[])() =
     {
     _GLOBAL__D__ZN11ArcadeDriveC2Ev,
     _GLOBAL__D__ZN17AutonomousCommandC2Ev,
-    _GLOBAL__D__ZN12ClimbThePoleC2Ev,
+    _GLOBAL__D__ZN16ClimbThePoleDownC2Ev,
+    _GLOBAL__D__ZN14ClimbThePoleUpC2Ev,
+    _GLOBAL__D__ZN15CollectTheDisksC2Ev,
     _GLOBAL__D__ZN17RandomArcadeDriveC2Ev,
     _GLOBAL__D__ZN14ShootDriveDownC2Ev,
     _GLOBAL__D__ZN12ShootDriveUpC2Ev,
     _GLOBAL__D__ZN11report_gyroC2Ev,
     _GLOBAL__D__ZN2OIC2Ev,
     _GLOBAL__D__ZN5Robot2oiE,
-    _GLOBAL__D__ZN8RobotMap28climberCheckSpeedController1E,
+    _GLOBAL__D__ZN8RobotMap23climberSpeedController1E,
     _GLOBAL__D__ZN18AngleCheckWithGyroC2Ev,
-    _GLOBAL__D__ZN12ClimberCheckC2Ev,
+    _GLOBAL__D__ZN7ClimberC2Ev,
     _GLOBAL__D__ZN9CollectorC2Ev,
     _GLOBAL__D__ZN10DriveTrainC2Ev,
     _GLOBAL__D__ZN7ShooterC2Ev,

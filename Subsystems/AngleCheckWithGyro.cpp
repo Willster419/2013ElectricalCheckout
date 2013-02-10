@@ -28,5 +28,5 @@ void AngleCheckWithGyro::InitDefaultCommand() {
 void AngleCheckWithGyro::readAndReportAngle() {
 	float angg = gyro1->GetAngle();
 	SmartDashboard::PutNumber( "Gyro Angle", (double)angg );
-	printf ("gyro is %f\n", angg);
+	//printf ("gyro is %f\n", angg);
 }
