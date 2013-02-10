@@ -390,7 +390,8 @@
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/DriveTrain.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Shooter.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../OI.h
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../OI.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/AngleCheckWithGyro.h
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/report_gyro.h:
 
@@ -1171,3 +1172,5 @@ C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Sub
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Shooter.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../OI.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/AngleCheckWithGyro.h:

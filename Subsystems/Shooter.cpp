@@ -39,6 +39,8 @@ void Shooter::InitDefaultCommand() {
 void Shooter::SetSpeed(float inSpeed)
 {
 	WilliesSpeed = inSpeed;
+	mainShooter->Set( WilliesSpeed );
+	supportShooter->Set( WilliesSpeed );
 }
 
 float Shooter::GetSpeed()

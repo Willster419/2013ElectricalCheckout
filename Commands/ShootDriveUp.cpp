@@ -18,8 +18,6 @@ ShootDriveUp::ShootDriveUp() {
 }
 // Called just before this Command runs the first time
 void ShootDriveUp::Initialize() {
-//	WilliesSpeed += 0.10;	
-//	printf ("up=%f\n", WilliesSpeed);
 	Robot::shooter->SetSpeed(Robot::shooter->GetSpeed()+0.10);
 	printf ("up=%f\n", Robot::shooter->GetSpeed());
 
@@ -31,7 +29,7 @@ void ShootDriveUp::Execute() {
 }
 // Make this return true when this Command no longer needs to run execute()
 bool ShootDriveUp::IsFinished() {
-	printf("ShootDriveUp IsFinished\n");
+	//printf("ShootDriveUp IsFinished\n");
 	return true;
 }
 // Called once after isFinished returns true
