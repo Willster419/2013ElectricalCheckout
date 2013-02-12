@@ -51,7 +51,7 @@ void RobotMap::init() {
 	
 	driveTrainRobotDrive = new RobotDrive(driveTrainCANJaguar1, driveTrainCANJaguar2);
 	
-	driveTrainRobotDrive->SetSafetyEnabled(true);
+	driveTrainRobotDrive->SetSafetyEnabled(false);
         driveTrainRobotDrive->SetExpiration(0.1);
         driveTrainRobotDrive->SetSensitivity(0.5);
         driveTrainRobotDrive->SetMaxOutput(1.0);
