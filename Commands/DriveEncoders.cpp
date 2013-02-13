@@ -10,7 +10,7 @@
 
 
 #include "DriveEncoders.h"
-
+#include "../Subsystems/DriveTrain.h"
 DriveEncoders::DriveEncoders() {
 	// Use requires() here to declare subsystem dependencies
 	// eg. requires(chassis);
@@ -26,7 +26,7 @@ void DriveEncoders::Initialize() {
 
 // Called repeatedly when this Command is scheduled to run
 void DriveEncoders::Execute() {
-	
+	Robot::driveTrain->ReportEncoders();
 }
 
 // Make this return true when this Command no longer needs to run execute()

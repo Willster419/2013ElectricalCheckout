@@ -33,5 +33,6 @@ public:
 	void Drive_with_joy( Joystick *stick );
 	void Drive_with_abandon( void );
 	void Halt_drive( void );
+	void ReportEncoders ();
 };
 #endif

@@ -42,3 +42,9 @@ void DriveTrain::Drive_with_abandon( void ) {
 void DriveTrain::Halt_drive( void ) {
 	robotDrive->ArcadeDrive( 0.0, 0.0 );
 }
+void DriveTrain::ReportEncoders() {
+	float encoder1 = quadratureEncoder1->GetRate();
+	float encoder2 = quadratureEncoder2->GetRate();
+	SmartDashboard::PutNumber( "Encoder 1", (double)encoder1 );
+	SmartDashboard::PutNumber( "Encoder 2", (double)encoder2 );
+}
