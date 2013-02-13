@@ -30,9 +30,9 @@ void Climber::InitDefaultCommand() {
 }
 // Put methods for controlling this subsystem
 // here. Call these from Commands.
-void Climber::SetSpeed(float inSpeed)
+void Climber::SetSpeed(float inSpeed2)
 {
-	climberSpeed = inSpeed;
+	climberSpeed = inSpeed2;
 	leftCIM->Set(climberSpeed);
 	rightCIM->Set(climberSpeed);
 }

@@ -391,7 +391,7 @@
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Vision/ColorImage.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPIErrors.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/SmartDashboard/SmartDashboard.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ArcadeDrive.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AngleDown.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Robot.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
@@ -409,13 +409,18 @@
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/DriveTrain.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Shooter.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../OI.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AngleUp.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ArcadeDrive.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleDown.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleUp.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectTheDisks.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimberSensors.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectorSensors.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/DriveEncoders.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/RandomArcadeDrive.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveDown.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveUp.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ShooterSensors.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/report_gyro.h
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/OI.h:
@@ -1198,7 +1203,7 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/WPIErrors.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/SmartDashboard/SmartDashboard.h:
 
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ArcadeDrive.h:
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AngleDown.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
@@ -1234,18 +1239,28 @@ C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Sub
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../OI.h:
 
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AngleUp.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ArcadeDrive.h:
+
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleDown.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleUp.h:
 
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectTheDisks.h:
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimberSensors.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectorSensors.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/DriveEncoders.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/RandomArcadeDrive.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveDown.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveUp.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ShooterSensors.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/report_gyro.h:

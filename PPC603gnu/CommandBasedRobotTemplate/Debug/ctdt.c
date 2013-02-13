@@ -7,6 +7,10 @@
 /*       -fdollars-in-identifiers flag.                   */
 
 
+void _GLOBAL__I__ZN9AngleDownC2Ev();
+
+void _GLOBAL__I__ZN7AngleUpC2Ev();
+
 void _GLOBAL__I__ZN11ArcadeDriveC2Ev();
 
 void _GLOBAL__I__ZN17AutonomousCommandC2Ev();
@@ -15,13 +19,19 @@ void _GLOBAL__I__ZN16ClimbThePoleDownC2Ev();
 
 void _GLOBAL__I__ZN14ClimbThePoleUpC2Ev();
 
-void _GLOBAL__I__ZN15CollectTheDisksC2Ev();
+void _GLOBAL__I__ZN14ClimberSensorsC2Ev();
+
+void _GLOBAL__I__ZN16CollectorSensorsC2Ev();
+
+void _GLOBAL__I__ZN13DriveEncodersC2Ev();
 
 void _GLOBAL__I__ZN17RandomArcadeDriveC2Ev();
 
 void _GLOBAL__I__ZN14ShootDriveDownC2Ev();
 
 void _GLOBAL__I__ZN12ShootDriveUpC2Ev();
+
+void _GLOBAL__I__ZN14ShooterSensorsC2Ev();
 
 void _GLOBAL__I__ZN11report_gyroC2Ev();
 
@@ -92,14 +102,19 @@ void _GLOBAL__I__ZN11StringArray19STRING_ARRAY_RAW_IDE();
 extern void (*_ctors[])();
 void (*_ctors[])() =
     {
+    _GLOBAL__I__ZN9AngleDownC2Ev,
+    _GLOBAL__I__ZN7AngleUpC2Ev,
     _GLOBAL__I__ZN11ArcadeDriveC2Ev,
     _GLOBAL__I__ZN17AutonomousCommandC2Ev,
     _GLOBAL__I__ZN16ClimbThePoleDownC2Ev,
     _GLOBAL__I__ZN14ClimbThePoleUpC2Ev,
-    _GLOBAL__I__ZN15CollectTheDisksC2Ev,
+    _GLOBAL__I__ZN14ClimberSensorsC2Ev,
+    _GLOBAL__I__ZN16CollectorSensorsC2Ev,
+    _GLOBAL__I__ZN13DriveEncodersC2Ev,
     _GLOBAL__I__ZN17RandomArcadeDriveC2Ev,
     _GLOBAL__I__ZN14ShootDriveDownC2Ev,
     _GLOBAL__I__ZN12ShootDriveUpC2Ev,
+    _GLOBAL__I__ZN14ShooterSensorsC2Ev,
     _GLOBAL__I__ZN11report_gyroC2Ev,
     _GLOBAL__I__ZN2OIC2Ev,
     _GLOBAL__I__ZN5Robot2oiE,
@@ -136,6 +151,10 @@ void (*_ctors[])() =
     0
     };
 
+void _GLOBAL__D__ZN9AngleDownC2Ev();
+
+void _GLOBAL__D__ZN7AngleUpC2Ev();
+
 void _GLOBAL__D__ZN11ArcadeDriveC2Ev();
 
 void _GLOBAL__D__ZN17AutonomousCommandC2Ev();
@@ -144,13 +163,19 @@ void _GLOBAL__D__ZN16ClimbThePoleDownC2Ev();
 
 void _GLOBAL__D__ZN14ClimbThePoleUpC2Ev();
 
-void _GLOBAL__D__ZN15CollectTheDisksC2Ev();
+void _GLOBAL__D__ZN14ClimberSensorsC2Ev();
+
+void _GLOBAL__D__ZN16CollectorSensorsC2Ev();
+
+void _GLOBAL__D__ZN13DriveEncodersC2Ev();
 
 void _GLOBAL__D__ZN17RandomArcadeDriveC2Ev();
 
 void _GLOBAL__D__ZN14ShootDriveDownC2Ev();
 
 void _GLOBAL__D__ZN12ShootDriveUpC2Ev();
+
+void _GLOBAL__D__ZN14ShooterSensorsC2Ev();
 
 void _GLOBAL__D__ZN11report_gyroC2Ev();
 
@@ -211,14 +236,19 @@ void _GLOBAL__D__ZN11StringArray19STRING_ARRAY_RAW_IDE();
 extern void (*_dtors[])();
 void (*_dtors[])() =
     {
+    _GLOBAL__D__ZN9AngleDownC2Ev,
+    _GLOBAL__D__ZN7AngleUpC2Ev,
     _GLOBAL__D__ZN11ArcadeDriveC2Ev,
     _GLOBAL__D__ZN17AutonomousCommandC2Ev,
     _GLOBAL__D__ZN16ClimbThePoleDownC2Ev,
     _GLOBAL__D__ZN14ClimbThePoleUpC2Ev,
-    _GLOBAL__D__ZN15CollectTheDisksC2Ev,
+    _GLOBAL__D__ZN14ClimberSensorsC2Ev,
+    _GLOBAL__D__ZN16CollectorSensorsC2Ev,
+    _GLOBAL__D__ZN13DriveEncodersC2Ev,
     _GLOBAL__D__ZN17RandomArcadeDriveC2Ev,
     _GLOBAL__D__ZN14ShootDriveDownC2Ev,
     _GLOBAL__D__ZN12ShootDriveUpC2Ev,
+    _GLOBAL__D__ZN14ShooterSensorsC2Ev,
     _GLOBAL__D__ZN11report_gyroC2Ev,
     _GLOBAL__D__ZN2OIC2Ev,
     _GLOBAL__D__ZN5Robot2oiE,

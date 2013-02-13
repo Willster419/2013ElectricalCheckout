@@ -116,6 +116,14 @@ CommandBasedRobotTemplate/$(MODE_DIR)/% : LIBPATH =
 CommandBasedRobotTemplate/$(MODE_DIR)/% : LIBS = 
 CommandBasedRobotTemplate/$(MODE_DIR)/% : OBJ_DIR := CommandBasedRobotTemplate/$(MODE_DIR)
 
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/AngleDown.o : $(PRJ_ROOT_DIR)/Commands/AngleDown.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/AngleUp.o : $(PRJ_ROOT_DIR)/Commands/AngleUp.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ArcadeDrive.o : $(PRJ_ROOT_DIR)/Commands/ArcadeDrive.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
@@ -132,7 +140,15 @@ CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalc
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/CollectTheDisks.o : $(PRJ_ROOT_DIR)/Commands/CollectTheDisks.cpp $(FORCE_FILE_BUILD)
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ClimberSensors.o : $(PRJ_ROOT_DIR)/Commands/ClimberSensors.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/CollectorSensors.o : $(PRJ_ROOT_DIR)/Commands/CollectorSensors.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/DriveEncoders.o : $(PRJ_ROOT_DIR)/Commands/DriveEncoders.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
@@ -145,6 +161,10 @@ CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalc
 
 
 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveUp.o : $(PRJ_ROOT_DIR)/Commands/ShootDriveUp.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ShooterSensors.o : $(PRJ_ROOT_DIR)/Commands/ShooterSensors.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
@@ -184,14 +204,19 @@ CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalc
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-OBJECTS_CommandBasedRobotTemplate = CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ArcadeDrive.o \
+OBJECTS_CommandBasedRobotTemplate = CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/AngleDown.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/AngleUp.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ArcadeDrive.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleDown.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleUp.o \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/CollectTheDisks.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ClimberSensors.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/CollectorSensors.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/DriveEncoders.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/RandomArcadeDrive.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveDown.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveUp.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ShooterSensors.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/report_gyro.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/OI.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Robot.o \
@@ -214,12 +239,14 @@ CommandBasedRobotTemplate/$(MODE_DIR)/CommandBasedRobotTemplate_clean :
 
 force : 
 
-DEP_FILES := CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ArcadeDrive.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleDown.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleUp.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/CollectTheDisks.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/RandomArcadeDrive.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveDown.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveUp.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/report_gyro.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/OI.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Robot.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/RobotMap.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Subsystems/AngleCheckWithGyro.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Subsystems/Climber.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Subsystems/Collector.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Subsystems/DriveTrain.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Subsystems/Shooter.d
+DEP_FILES := CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/AngleDown.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/AngleUp.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ArcadeDrive.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleDown.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleUp.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ClimberSensors.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/CollectorSensors.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/DriveEncoders.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/RandomArcadeDrive.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveDown.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveUp.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/ShooterSensors.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Commands/report_gyro.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/OI.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Robot.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/RobotMap.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Subsystems/AngleCheckWithGyro.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Subsystems/Climber.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Subsystems/Collector.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Subsystems/DriveTrain.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/frcteam1073-electrical.electricalcheckout/Subsystems/Shooter.d
 -include $(DEP_FILES)
 
 
