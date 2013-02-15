@@ -18,7 +18,6 @@
 #include "Commands/ClimbThePoleUp.h"
 #include "Commands/ClimberSensors.h"
 #include "Commands/CollectorSensors.h"
-#include "Commands/DriveEncoders.h"
 #include "Commands/RandomArcadeDrive.h"
 #include "Commands/ShootDriveDown.h"
 #include "Commands/ShootDriveUp.h"
@@ -52,7 +51,6 @@ OI::OI() {
 	SmartDashboard::PutData("ClimbThePoleUp", new ClimbThePoleUp());
 	SmartDashboard::PutData("ClimbThePoleDown", new ClimbThePoleDown());
 	SmartDashboard::PutData("report_gyro", new report_gyro());
-	SmartDashboard::PutData("DriveEncoders", new DriveEncoders());
 	SmartDashboard::PutData("ClimberSensors", new ClimberSensors());
 	SmartDashboard::PutData("ShooterSensors", new ShooterSensors());
 	SmartDashboard::PutData("CollectorSensors", new CollectorSensors());

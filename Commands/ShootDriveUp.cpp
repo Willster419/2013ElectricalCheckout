@@ -18,7 +18,7 @@ ShootDriveUp::ShootDriveUp() {
 }
 // Called just before this Command runs the first time
 void ShootDriveUp::Initialize() {
-	Robot::shooter->SetSpeed(Robot::shooter->GetSpeed()+100);
+	Robot::shooter->SetSpeed(Robot::shooter->GetSpeed()+0.10);
 	printf ("up=%f\n", Robot::shooter->GetSpeed());
 }
 // Called repeatedly when this Command is scheduled to run

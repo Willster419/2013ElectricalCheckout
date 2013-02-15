@@ -416,7 +416,6 @@
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleUp.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimberSensors.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectorSensors.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/DriveEncoders.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/RandomArcadeDrive.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveDown.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveUp.h \
@@ -1252,8 +1251,6 @@ C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbT
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimberSensors.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectorSensors.h:
-
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/DriveEncoders.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/RandomArcadeDrive.h:
 

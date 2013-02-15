@@ -20,7 +20,7 @@ ShootDriveDown::ShootDriveDown() {
 // Called just before this Command runs the first time
 void ShootDriveDown::Initialize() 
 {
-	Robot::shooter->SetSpeed(Robot::shooter->GetSpeed()-100);
+	Robot::shooter->SetSpeed(Robot::shooter->GetSpeed()-0.10);
 	printf ("down=%f\n", Robot::shooter->GetSpeed());
 	
 }

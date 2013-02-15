@@ -9,9 +9,6 @@
 // it from being updated in th future.
 #include "ShooterSensors.h"
 #include "../Subsystems/Shooter.h"
-extern double P;
-extern double I;
-extern double D;
 ShooterSensors::ShooterSensors() {
 	// Use requires() here to declare subsystem dependencies
 	// eg. requires(chassis);
@@ -21,7 +18,7 @@ ShooterSensors::ShooterSensors() {
 }
 // Called just before this Command runs the first time
 void ShooterSensors::Initialize() {
-	Robot::shooter->SetPID( P, I, D );
+	printf ("Shooter Sensors command called!\n");
 	//Robot::shooter->ConfigureJaguarEncoder(mainShooter, supportShooter);
 }
 // Called repeatedly when this Command is scheduled to run
