@@ -11,6 +11,8 @@
 #include "../Robot.h"
 #include "../Subsystems/DriveTrain.h"
 extern float WilliesSpeed;
+//extern float encoder1;
+//extern float encoder2;
 ArcadeDrive::ArcadeDrive() {
 	// Use requires() here to declare subsystem dependencies
 	// eg. requires(chassis);
@@ -20,11 +22,13 @@ ArcadeDrive::ArcadeDrive() {
 }
 // Called just before this Command runs the first time
 void ArcadeDrive::Initialize() {
-	
+	//encoder1 = 0;
+	//encoder2 = 0;
 }
 // Called repeatedly when this Command is scheduled to run
 void ArcadeDrive::Execute() {
 	Robot::driveTrain->Drive_with_joy( Robot::oi->getJoystick());
+	Robot::driveTrain->ReportEncoders();
 	//printf ( "%g", WilliesSpeed );
 }
 // Make this return true when this Command no longer needs to run execute()

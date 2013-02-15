@@ -26,3 +26,12 @@ void Collector::InitDefaultCommand() {
 }
 // Put methods for controlling this subsystem
 // here. Call these from Commands.
+void Collector::GetTheSensors()
+{
+	float ShawnHazSwag = upsideDown->GetVoltage();
+	float WillieHazSwag = diskOnTheBed->Get();
+	float LolSwag = howManyDisks->GetVoltage();
+	SmartDashboard::PutNumber("upside down", (double) ShawnHazSwag);
+	SmartDashboard::PutNumber("disk on the bed", (double) WillieHazSwag);
+	SmartDashboard::PutNumber("how many disks", (double) LolSwag);
+}
