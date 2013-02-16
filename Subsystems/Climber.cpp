@@ -25,8 +25,10 @@ Climber::Climber() : Subsystem("Climber") {
     
 void Climber::InitDefaultCommand() {
 	leftCIM->SetPositionReference(CANJaguar::kPosRef_QuadEncoder);
+	leftCIM->ConfigEncoderCodesPerRev(360);
 	leftCIM->EnableControl();
 	rightCIM->SetPositionReference(CANJaguar::kPosRef_QuadEncoder);
+	rightCIM->ConfigEncoderCodesPerRev(360);
 	rightCIM->EnableControl();
 		printf ("the configuration for CLIMBAH iz complete\n");
 	// Set the default command for a subsystem here.

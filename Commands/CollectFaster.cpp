@@ -19,7 +19,7 @@ CollectFaster::CollectFaster() {
 // Called just before this Command runs the first time
 void CollectFaster::Initialize() {
 	Robot::collector->SetSpeed(Robot::collector->GetSpeed()+0.10);
-	printf (" collect faster =%f\n", Robot::climber->GetSpeed());
+	printf ("collect faster =%f\n", Robot::collector->GetSpeed());
 }
 // Called repeatedly when this Command is scheduled to run
 void CollectFaster::Execute() {

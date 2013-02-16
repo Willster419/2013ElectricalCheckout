@@ -23,9 +23,12 @@ DriveTrain::DriveTrain() : Subsystem("DriveTrain") {
 }
     
 void DriveTrain::InitDefaultCommand() {
+	//cANJaguar1->ChangeControlMode(CANJaguar::kPosition);
 	cANJaguar1->SetPositionReference(CANJaguar::kPosRef_QuadEncoder);
+	cANJaguar1->ConfigEncoderCodesPerRev(360);
 	cANJaguar1->EnableControl();
 	cANJaguar2->SetPositionReference(CANJaguar::kPosRef_QuadEncoder);
+	cANJaguar2->ConfigEncoderCodesPerRev(360);
 	cANJaguar2->EnableControl();
 	printf ("the configuration for DRIVE is complete\n");
 	//SetDefaultCommand(new DriveEncoders());
@@ -52,10 +55,10 @@ void DriveTrain::Halt_drive( void ) {
 	robotDrive->ArcadeDrive( 0.0, 0.0 );
 }
 void DriveTrain::ReportEncoders() {
-	
+	//cANJaguar1->GetControlMode();
 	float encoder1 = cANJaguar1->GetPosition();
 	float encoder2 = cANJaguar2->GetPosition();
-	//printf ("drive encoder Y U NO WORK??? %f\n", encoder1);
+	//printf ("drive encoder %f\n", encoder1);
 	SmartDashboard::PutNumber( "Drive Encoder 1", (double)encoder1 );
 	SmartDashboard::PutNumber( "Drive Encoder 2", (double)encoder2 );
 }
