@@ -17,12 +17,12 @@ AngleUp::AngleUp() {
 }
 // Called just before this Command runs the first time
 void AngleUp::Initialize() {
-	Robot::shooter->SetSpeed(Robot::shooter->GetSpeed()+0.10);
-	printf ("angle up=%f\n", Robot::shooter->GetSpeed());
+	Robot::shooter->SetSpeedVic(Robot::shooter->GetSpeedVic()+0.10);
+	printf ("angle up=%f\n", Robot::shooter->GetSpeedVic());
 }
 // Called repeatedly when this Command is scheduled to run
 void AngleUp::Execute() {
-	RobotMap::shooterAngleElevationJag->Set(Robot::shooter->GetSpeed());
+	RobotMap::shooterAngleVictor->Set(Robot::shooter->GetSpeedVic());
 }
 // Make this return true when this Command no longer needs to run execute()
 bool AngleUp::IsFinished() {

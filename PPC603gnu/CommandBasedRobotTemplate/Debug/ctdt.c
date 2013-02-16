@@ -19,9 +19,19 @@ void _GLOBAL__I__ZN16ClimbThePoleDownC2Ev();
 
 void _GLOBAL__I__ZN14ClimbThePoleUpC2Ev();
 
+void _GLOBAL__I__ZN11ClimbahDownC2Ev();
+
+void _GLOBAL__I__ZN9ClimbahUpC2Ev();
+
 void _GLOBAL__I__ZN14ClimberSensorsC2Ev();
 
+void _GLOBAL__I__ZN13CollectFasterC2Ev();
+
+void _GLOBAL__I__ZN13CollectSlowerC2Ev();
+
 void _GLOBAL__I__ZN16CollectorSensorsC2Ev();
+
+void _GLOBAL__I__ZN13DriveEncodersC2Ev();
 
 void _GLOBAL__I__ZN17RandomArcadeDriveC2Ev();
 
@@ -106,8 +116,13 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN17AutonomousCommandC2Ev,
     _GLOBAL__I__ZN16ClimbThePoleDownC2Ev,
     _GLOBAL__I__ZN14ClimbThePoleUpC2Ev,
+    _GLOBAL__I__ZN11ClimbahDownC2Ev,
+    _GLOBAL__I__ZN9ClimbahUpC2Ev,
     _GLOBAL__I__ZN14ClimberSensorsC2Ev,
+    _GLOBAL__I__ZN13CollectFasterC2Ev,
+    _GLOBAL__I__ZN13CollectSlowerC2Ev,
     _GLOBAL__I__ZN16CollectorSensorsC2Ev,
+    _GLOBAL__I__ZN13DriveEncodersC2Ev,
     _GLOBAL__I__ZN17RandomArcadeDriveC2Ev,
     _GLOBAL__I__ZN14ShootDriveDownC2Ev,
     _GLOBAL__I__ZN12ShootDriveUpC2Ev,
@@ -160,9 +175,19 @@ void _GLOBAL__D__ZN16ClimbThePoleDownC2Ev();
 
 void _GLOBAL__D__ZN14ClimbThePoleUpC2Ev();
 
+void _GLOBAL__D__ZN11ClimbahDownC2Ev();
+
+void _GLOBAL__D__ZN9ClimbahUpC2Ev();
+
 void _GLOBAL__D__ZN14ClimberSensorsC2Ev();
 
+void _GLOBAL__D__ZN13CollectFasterC2Ev();
+
+void _GLOBAL__D__ZN13CollectSlowerC2Ev();
+
 void _GLOBAL__D__ZN16CollectorSensorsC2Ev();
+
+void _GLOBAL__D__ZN13DriveEncodersC2Ev();
 
 void _GLOBAL__D__ZN17RandomArcadeDriveC2Ev();
 
@@ -237,8 +262,13 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN17AutonomousCommandC2Ev,
     _GLOBAL__D__ZN16ClimbThePoleDownC2Ev,
     _GLOBAL__D__ZN14ClimbThePoleUpC2Ev,
+    _GLOBAL__D__ZN11ClimbahDownC2Ev,
+    _GLOBAL__D__ZN9ClimbahUpC2Ev,
     _GLOBAL__D__ZN14ClimberSensorsC2Ev,
+    _GLOBAL__D__ZN13CollectFasterC2Ev,
+    _GLOBAL__D__ZN13CollectSlowerC2Ev,
     _GLOBAL__D__ZN16CollectorSensorsC2Ev,
+    _GLOBAL__D__ZN13DriveEncodersC2Ev,
     _GLOBAL__D__ZN17RandomArcadeDriveC2Ev,
     _GLOBAL__D__ZN14ShootDriveDownC2Ev,
     _GLOBAL__D__ZN12ShootDriveUpC2Ev,

@@ -409,7 +409,8 @@
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/../Subsystems/DriveTrain.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/../Subsystems/Shooter.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/../OI.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../OI.h
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../OI.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/DriveEncoders.h
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/DriveTrain.h:
 
@@ -1228,3 +1229,5 @@ C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../C
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/../OI.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../OI.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/DriveEncoders.h:

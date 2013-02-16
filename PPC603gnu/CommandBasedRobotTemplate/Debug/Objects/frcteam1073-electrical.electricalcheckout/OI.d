@@ -414,8 +414,15 @@
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleDown.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleUp.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbahDown.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbahUp.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimberSensors.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectFaster.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectSlower.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectorSensors.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CommandGroup1.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
+  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/DriveEncoders.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/RandomArcadeDrive.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveDown.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ShootDriveUp.h \
@@ -1248,9 +1255,23 @@ C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbT
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleUp.h:
 
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbahDown.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbahUp.h:
+
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimberSensors.h:
 
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectFaster.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectSlower.h:
+
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectorSensors.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CommandGroup1.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h:
+
+C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/DriveEncoders.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/RandomArcadeDrive.h:
 

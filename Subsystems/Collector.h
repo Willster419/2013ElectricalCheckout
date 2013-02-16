@@ -18,6 +18,7 @@
  */
 class Collector: public Subsystem {
 private:
+	float WilliesSpeed4;
 	// It's desirable that everything possible under private except
 	// for methods that implement subsystem capabilities
 public:
@@ -30,5 +31,7 @@ public:
 	Collector();
 	void InitDefaultCommand();
 	void GetTheSensors();
+	float GetSpeed();
+	void SetSpeed(float inSpeed);
 };
 #endif

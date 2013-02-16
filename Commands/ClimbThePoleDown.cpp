@@ -23,8 +23,8 @@ void ClimbThePoleDown::Initialize() {
 }
 // Called repeatedly when this Command is scheduled to run
 void ClimbThePoleDown::Execute() {
-	RobotMap::climberSpeedController1->Set(Robot::climber->GetSpeed());
-	RobotMap::climberSpeedController2->Set(Robot::climber->GetSpeed());
+	RobotMap::climberLeftCIM->Set(Robot::climber->GetSpeed());
+	RobotMap::climberRightCIM->Set(Robot::climber->GetSpeed());
 }
 // Make this return true when this Command no longer needs to run execute()
 bool ClimbThePoleDown::IsFinished() {

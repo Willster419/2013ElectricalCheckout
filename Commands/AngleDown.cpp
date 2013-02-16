@@ -18,12 +18,12 @@ AngleDown::AngleDown() {
 }
 // Called just before this Command runs the first time
 void AngleDown::Initialize() {
-	Robot::shooter->SetSpeed(Robot::shooter->GetSpeed()-0.10);
-	printf ("angle down=%f\n", Robot::shooter->GetSpeed());
+	Robot::shooter->SetSpeedVic(Robot::shooter->GetSpeedVic()-0.10);
+	printf ("angle down=%f\n", Robot::shooter->GetSpeedVic());
 }
 // Called repeatedly when this Command is scheduled to run
 void AngleDown::Execute() {
-	RobotMap::shooterAngleElevationJag->Set(Robot::shooter->GetSpeed());
+	RobotMap::shooterAngleVictor->Set(Robot::shooter->GetSpeedVic());
 }
 // Make this return true when this Command no longer needs to run execute()
 bool AngleDown::IsFinished() {
