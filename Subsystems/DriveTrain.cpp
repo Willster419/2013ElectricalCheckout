@@ -58,9 +58,13 @@ void DriveTrain::ReportEncoders() {
 	//cANJaguar1->GetControlMode();
 	float encoder1 = cANJaguar1->GetPosition();
 	float encoder2 = cANJaguar2->GetPosition();
+	float voltage1 = cANJaguar1->GetOutputVoltage();
+	float voltage2 = cANJaguar2->GetOutputVoltage();
 	//printf ("drive encoder %f\n", encoder1);
 	SmartDashboard::PutNumber( "Drive Encoder 1", (double)encoder1 );
 	SmartDashboard::PutNumber( "Drive Encoder 2", (double)encoder2 );
+	SmartDashboard::PutNumber( "Left CIM Voltage", (double)voltage1 );
+	SmartDashboard::PutNumber( "Right CIM Voltage", (double)voltage2 );
 }
 /*void DriveTrain::ConfigureJaguarEncoder(CANJaguar* cANJaguar1, CANJaguar* cANJaguar2){
 	cANJaguar1->ChangeControlMode(CANJaguar::kSpeed);

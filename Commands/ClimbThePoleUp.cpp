@@ -24,7 +24,7 @@ void ClimbThePoleUp::Initialize() {
 // Called repeatedly when this Command is scheduled to run
 void ClimbThePoleUp::Execute() {
 	RobotMap::climberLeftCIM->Set(Robot::climber->GetSpeed());
-	RobotMap::climberRightCIM->Set(Robot::climber->GetSpeed());
+	RobotMap::climberRightCIM->Set(Robot::climber->GetSpeed()*-1);
 }
 // Make this return true when this Command no longer needs to run execute()
 bool ClimbThePoleUp::IsFinished() {

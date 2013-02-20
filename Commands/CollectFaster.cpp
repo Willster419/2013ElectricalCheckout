@@ -18,12 +18,13 @@ CollectFaster::CollectFaster() {
 }
 // Called just before this Command runs the first time
 void CollectFaster::Initialize() {
-	Robot::collector->SetSpeed(Robot::collector->GetSpeed()+0.10);
-	printf ("collect faster =%f\n", Robot::collector->GetSpeed());
+	//Robot::collector->SetSpeed(Robot::collector->GetSpeed()+0.10);
+	printf ("collect spike on\n");
 }
 // Called repeatedly when this Command is scheduled to run
 void CollectFaster::Execute() {
-	RobotMap::collectorCollectorMotor->Set(Robot::collector->GetSpeed());
+	//RobotMap::collectorCollectorMotor->Set(Robot::collector->GetSpeed());
+	Robot::collector->SetSpikeFoward();
 }
 // Make this return true when this Command no longer needs to run execute()
 bool CollectFaster::IsFinished() {

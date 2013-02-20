@@ -32,6 +32,7 @@ public:
 	static AnalogChannel* collectorHowManyDisks;
 	static DigitalInput* collectorDiskOnTheBed;
 	static AnalogChannel* collectorUpsideDown;
+	static Relay* collectorSpike1;
 	static CANJaguar* shootermainShooter;
 	static CANJaguar* shootersupportShooter;
 	static DigitalInput* shooterLightSensor;

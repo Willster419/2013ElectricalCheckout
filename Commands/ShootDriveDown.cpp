@@ -28,7 +28,7 @@ void ShootDriveDown::Initialize()
 void ShootDriveDown::Execute() {
 //	RobotMap::shootermainShooter->Set(WilliesSpeed);
 	RobotMap::shootermainShooter->Set(Robot::shooter->GetSpeed());
-	RobotMap::shootersupportShooter->Set(Robot::shooter->GetSpeed());
+	RobotMap::shootersupportShooter->Set(Robot::shooter->GetSpeed()*-1);
 	//WilliesSpeed -= 0.20;
 	//bool ShootDriveDown::IsFinished(true);
 }

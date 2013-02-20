@@ -18,12 +18,12 @@ ClimbahUp::ClimbahUp() {
 }
 // Called just before this Command runs the first time
 void ClimbahUp::Initialize() {
-	Robot::climber->SetArms(Robot::climber->GetArms()+0.10);
+	Robot::climber->SetArms(Robot::climber->GetArms()+0.1);
 	printf ("climber up=%f\n", Robot::climber->GetArms());
 }
 // Called repeatedly when this Command is scheduled to run
 void ClimbahUp::Execute() {
-	RobotMap::climberSpeedController1->Set(Robot::climber->GetArms());
+	RobotMap::climberSpeedController1->Set(Robot::climber->GetArms()*-1);
 	RobotMap::climberSpeedController1->Set(Robot::climber->GetArms());
 }
 // Make this return true when this Command no longer needs to run execute()

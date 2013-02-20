@@ -26,6 +26,7 @@ void AngleCheckWithGyro::InitDefaultCommand() {
 // Put methods for controlling this subsystem
 // here. Call these from Commands.
 void AngleCheckWithGyro::readAndReportAngle() {
+	
 	float angg = gyro1->GetAngle();
 	SmartDashboard::PutNumber( "Gyro Angle", (double)angg );
 	//printf ("gyro is %f\n", angg);

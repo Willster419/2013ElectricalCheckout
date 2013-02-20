@@ -31,6 +31,8 @@ public:
 	//float YValue2;
 	float encoder1;
 	float encoder2;
+	float voltage1;
+	float voltage2;
 	DriveTrain();
 	void InitDefaultCommand();
 	void Drive_with_joy( Joystick *stick );
