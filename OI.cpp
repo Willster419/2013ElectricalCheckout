@@ -36,7 +36,7 @@ OI::OI() {
 	joystick = new Joystick(1);
 	
 	collectSlow = new JoystickButton(joystick, 11);
-	collectSlow->WhileHeld(new CollectSlower());
+	collectSlow->WhenPressed(new CollectSlower());
 	collectFast = new JoystickButton(joystick, 12);
 	collectFast->WhenPressed(new CollectFaster());
 	climberArmDown = new JoystickButton(joystick, 9);

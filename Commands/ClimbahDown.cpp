@@ -18,7 +18,7 @@ ClimbahDown::ClimbahDown() {
 }
 // Called just before this Command runs the first time
 void ClimbahDown::Initialize() {
-	Robot::climber->SetArms(Robot::climber->GetArms()-0.1);
+	Robot::climber->SetArms(Robot::climber->GetArms()-0.10);
 	printf ("climber down=%f\n", Robot::climber->GetArms());
 }
 // Called repeatedly when this Command is scheduled to run
