@@ -18,11 +18,11 @@ AnalogChannel* RobotMap::climberMagneticEncoder1 = NULL;
 AnalogChannel* RobotMap::climberMagneticencoder2 = NULL;
 CANJaguar* RobotMap::driveTrainCANJaguar1 = NULL;
 CANJaguar* RobotMap::driveTrainCANJaguar2 = NULL;
+CANJaguar* RobotMap::driveTrainCANJaguar3 = NULL;
+CANJaguar* RobotMap::driveTrainCANJaguar4 = NULL;
 RobotDrive* RobotMap::driveTrainRobotDrive = NULL;
-SpeedController* RobotMap::collectorCollectorMotor = NULL;
 AnalogChannel* RobotMap::collectorHowManyDisks = NULL;
 DigitalInput* RobotMap::collectorDiskOnTheBed = NULL;
-AnalogChannel* RobotMap::collectorUpsideDown = NULL;
 Relay* RobotMap::collectorSpike1 = NULL;
 CANJaguar* RobotMap::shootermainShooter = NULL;
 CANJaguar* RobotMap::shootersupportShooter = NULL;
@@ -58,24 +58,24 @@ void RobotMap::init() {
 	driveTrainCANJaguar2 = new CANJaguar(9);
 	
 	
-	driveTrainRobotDrive = new RobotDrive(driveTrainCANJaguar1, driveTrainCANJaguar2);
+	driveTrainCANJaguar3 = new CANJaguar(4);
+	
+	
+	driveTrainCANJaguar4 = new CANJaguar(8);
+	
+	
+	driveTrainRobotDrive = new RobotDrive(driveTrainCANJaguar1, driveTrainCANJaguar2,
+              driveTrainCANJaguar3, driveTrainCANJaguar4);
 	
 	driveTrainRobotDrive->SetSafetyEnabled(false);
         driveTrainRobotDrive->SetExpiration(0.1);
         driveTrainRobotDrive->SetSensitivity(0.5);
         driveTrainRobotDrive->SetMaxOutput(1.0);
-        
-	collectorCollectorMotor = new Victor(1, 3);
-	lw->AddActuator("Collector", "CollectorMotor", (Victor*) collectorCollectorMotor);
-	
 	collectorHowManyDisks = new AnalogChannel(1, 3);
 	lw->AddSensor("Collector", "HowManyDisks", collectorHowManyDisks);
 	
 	collectorDiskOnTheBed = new DigitalInput(1, 3);
 	lw->AddSensor("Collector", "DiskOnTheBed", collectorDiskOnTheBed);
-	
-	collectorUpsideDown = new AnalogChannel(1, 4);
-	lw->AddSensor("Collector", "UpsideDown", collectorUpsideDown);
 	
 	collectorSpike1 = new Relay(1, 5);
 	lw->AddActuator("Collector", "Spike 1", collectorSpike1);

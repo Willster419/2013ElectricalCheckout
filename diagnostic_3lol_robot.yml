@@ -113,7 +113,7 @@ Children:
     Base: Subsystem
     Children:
     - Name: Robot Drive
-      Base: Robot Drive 2
+      Base: Robot Drive 4
       Children:
       - Name: CAN Jaguar 1
         Base: CAN Jaguar
@@ -135,29 +135,65 @@ Children:
             name: CAN ID
             validators: *id007
             value: '9'
+      - Name: CAN Jaguar 3
+        Base: CAN Jaguar
+        Children: []
+        Properties:
+          CAN ID: !!robotbuilder.data.properties.ChoicesProperty
+            choices: *id006
+            default: '2'
+            name: CAN ID
+            validators: *id007
+            value: '4'
+      - Name: CAN Jaguar 4
+        Base: CAN Jaguar
+        Children: []
+        Properties:
+          CAN ID: !!robotbuilder.data.properties.ChoicesProperty
+            choices: *id006
+            default: '2'
+            name: CAN ID
+            validators: *id007
+            value: '8'
       Properties:
         Sensitivity: !!robotbuilder.data.properties.DoubleProperty {default: 0.5,
           name: Sensitivity, validators: null, value: 0.5}
+        Right Front Motor Inverted: !!robotbuilder.data.properties.BooleanProperty {
+          default: false, name: Right Front Motor Inverted, validators: null, value: false}
         Safety Enabled: !!robotbuilder.data.properties.BooleanProperty {default: true,
           name: Safety Enabled, validators: null, value: false}
-        Left Motor Inverted: !!robotbuilder.data.properties.BooleanProperty {default: false,
-          name: Left Motor Inverted, validators: null, value: false}
-        Right Motor: !!robotbuilder.data.properties.ChildSelectionProperty
-          default: 1
-          name: Right Motor
+        Left Front Motor Inverted: !!robotbuilder.data.properties.BooleanProperty {
+          default: false, name: Left Front Motor Inverted, validators: null, value: false}
+        Right Front Motor: !!robotbuilder.data.properties.ChildSelectionProperty
+          default: 2
+          name: Right Front Motor
           type: PIDOutput
-          validators: [RobotDrive2, ChildDropdownSelected]
-          value: Drive Train CAN Jaguar 2
+          validators: [RobotDrive4, ChildDropdownSelected]
+          value: Drive Train CAN Jaguar 3
         Maximum Output: !!robotbuilder.data.properties.DoubleProperty {default: 1,
           name: Maximum Output, validators: null, value: 1.0}
-        Left Motor: !!robotbuilder.data.properties.ChildSelectionProperty
-          default: 0
-          name: Left Motor
+        Right Rear Motor Inverted: !!robotbuilder.data.properties.BooleanProperty {
+          default: false, name: Right Rear Motor Inverted, validators: null, value: false}
+        Left Rear Motor Inverted: !!robotbuilder.data.properties.BooleanProperty {
+          default: false, name: Left Rear Motor Inverted, validators: null, value: false}
+        Right Rear Motor: !!robotbuilder.data.properties.ChildSelectionProperty
+          default: 3
+          name: Right Rear Motor
           type: PIDOutput
-          validators: [RobotDrive2, ChildDropdownSelected]
+          validators: [RobotDrive4, ChildDropdownSelected]
+          value: Drive Train CAN Jaguar 4
+        Left Rear Motor: !!robotbuilder.data.properties.ChildSelectionProperty
+          default: 1
+          name: Left Rear Motor
+          type: PIDOutput
+          validators: [RobotDrive4, ChildDropdownSelected]
+          value: Drive Train CAN Jaguar 2
+        Left Front Motor: !!robotbuilder.data.properties.ChildSelectionProperty
+          default: 0
+          name: Left Front Motor
+          type: PIDOutput
+          validators: [RobotDrive4, ChildDropdownSelected]
           value: Drive Train CAN Jaguar 1
-        Right Motor Inverted: !!robotbuilder.data.properties.BooleanProperty {default: false,
-          name: Right Motor Inverted, validators: null, value: false}
         Safety Expiration Time: !!robotbuilder.data.properties.DoubleProperty {default: 0.1,
           name: Safety Expiration Time, validators: null, value: 0.1}
     Properties:
@@ -166,28 +202,6 @@ Children:
   - Name: Collector
     Base: Subsystem
     Children:
-    - Name: CollectorMotor
-      Base: Speed Controller
-      Children: []
-      Properties:
-        Output Module (Digital): !!robotbuilder.data.properties.ChoicesProperty
-          choices: *id001
-          default: '1'
-          name: Output Module (Digital)
-          validators: *id002
-          value: '1'
-        Type: !!robotbuilder.data.properties.ChoicesProperty
-          choices: *id003
-          default: Victor
-          name: Type
-          validators: null
-          value: Victor
-        Output Channel (PWM): !!robotbuilder.data.properties.ChoicesProperty
-          choices: *id004
-          default: '1'
-          name: Output Channel (PWM)
-          validators: *id005
-          value: '3'
     - Name: HowManyDisks
       Base: Analog Input
       Children: []
@@ -221,22 +235,6 @@ Children:
           name: Input Module (Digital)
           validators: &id015 [DigitalChannel]
           value: '1'
-    - Name: UpsideDown
-      Base: Analog Input
-      Children: []
-      Properties:
-        Input Module (Analog): !!robotbuilder.data.properties.ChoicesProperty
-          choices: *id008
-          default: '1'
-          name: Input Module (Analog)
-          validators: *id009
-          value: '1'
-        Input Channel (Analog): !!robotbuilder.data.properties.ChoicesProperty
-          choices: *id010
-          default: '1'
-          name: Input Channel (Analog)
-          validators: *id011
-          value: '4'
     - Name: Spike 1
       Base: Spike
       Children: []
@@ -607,7 +605,7 @@ Children:
           default: whileHeld
           name: When to Run
           validators: null
-          value: whileHeld
+          value: whenPressed
     Properties:
       Number: !!robotbuilder.data.properties.ChoicesProperty
         choices: ['1', '2', '3', '4']

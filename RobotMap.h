@@ -27,11 +27,11 @@ public:
 	static AnalogChannel* climberMagneticencoder2;
 	static CANJaguar* driveTrainCANJaguar1;
 	static CANJaguar* driveTrainCANJaguar2;
+	static CANJaguar* driveTrainCANJaguar3;
+	static CANJaguar* driveTrainCANJaguar4;
 	static RobotDrive* driveTrainRobotDrive;
-	static SpeedController* collectorCollectorMotor;
 	static AnalogChannel* collectorHowManyDisks;
 	static DigitalInput* collectorDiskOnTheBed;
-	static AnalogChannel* collectorUpsideDown;
 	static Relay* collectorSpike1;
 	static CANJaguar* shootermainShooter;
 	static CANJaguar* shootersupportShooter;
