@@ -71,6 +71,7 @@ void RobotMap::init() {
         driveTrainRobotDrive->SetExpiration(0.1);
         driveTrainRobotDrive->SetSensitivity(0.5);
         driveTrainRobotDrive->SetMaxOutput(1.0);
+        driveTrainRobotDrive->SetInvertedMotor(RobotDrive::kRearRightMotor, true);
 	collectorHowManyDisks = new AnalogChannel(1, 3);
 	lw->AddSensor("Collector", "HowManyDisks", collectorHowManyDisks);
 	

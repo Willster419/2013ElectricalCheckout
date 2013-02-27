@@ -55,7 +55,7 @@ void _GLOBAL__I__ZN7ClimberC2Ev();
 
 void _GLOBAL__I__ZN9CollectorC2Ev();
 
-void _GLOBAL__I__ZN10DriveTrainC2Ev();
+void _GLOBAL__I_isInverted();
 
 void _GLOBAL__I__ZN7ShooterC2Ev();
 
@@ -134,7 +134,7 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN18AngleCheckWithGyroC2Ev,
     _GLOBAL__I__ZN7ClimberC2Ev,
     _GLOBAL__I__ZN9CollectorC2Ev,
-    _GLOBAL__I__ZN10DriveTrainC2Ev,
+    _GLOBAL__I_isInverted,
     _GLOBAL__I__ZN7ShooterC2Ev,
     _GLOBAL__I__ZN12PrintCommandC2EPKc,
     _GLOBAL__I__ZN9Scheduler9_instanceE,
@@ -211,7 +211,7 @@ void _GLOBAL__D__ZN7ClimberC2Ev();
 
 void _GLOBAL__D__ZN9CollectorC2Ev();
 
-void _GLOBAL__D__ZN10DriveTrainC2Ev();
+void _GLOBAL__D_isInverted();
 
 void _GLOBAL__D__ZN7ShooterC2Ev();
 
@@ -280,7 +280,7 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN18AngleCheckWithGyroC2Ev,
     _GLOBAL__D__ZN7ClimberC2Ev,
     _GLOBAL__D__ZN9CollectorC2Ev,
-    _GLOBAL__D__ZN10DriveTrainC2Ev,
+    _GLOBAL__D_isInverted,
     _GLOBAL__D__ZN7ShooterC2Ev,
     _GLOBAL__D__ZN9Scheduler9_instanceE,
     _GLOBAL__D_wpi_error_s_ModuleIndexOutOfRange,

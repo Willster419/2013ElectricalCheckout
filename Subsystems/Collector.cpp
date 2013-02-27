@@ -35,7 +35,7 @@ void Collector::GetTheSensors()
 	float test1 = spike1->Get();
 	SmartDashboard::PutNumber("disk on the bed", (double) WillieHazSwag);
 	SmartDashboard::PutNumber("how many disks", (double) LolSwag);
-	SmartDashboard::PutNumber("spike test", (double)test1);
+	SmartDashboard::PutNumber("spike", (double)test1);
 }
 void Collector::SetSpikeFoward()
 {
