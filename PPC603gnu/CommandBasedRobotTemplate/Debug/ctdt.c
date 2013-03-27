@@ -13,7 +13,7 @@ void _GLOBAL__I__ZN7AngleUpC2Ev();
 
 void _GLOBAL__I__ZN11ArcadeDriveC2Ev();
 
-void _GLOBAL__I__ZN17AutonomousCommandC2Ev();
+void _GLOBAL__I_timeout();
 
 void _GLOBAL__I__ZN16ClimbThePoleDownC2Ev();
 
@@ -113,7 +113,7 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN9AngleDownC2Ev,
     _GLOBAL__I__ZN7AngleUpC2Ev,
     _GLOBAL__I__ZN11ArcadeDriveC2Ev,
-    _GLOBAL__I__ZN17AutonomousCommandC2Ev,
+    _GLOBAL__I_timeout,
     _GLOBAL__I__ZN16ClimbThePoleDownC2Ev,
     _GLOBAL__I__ZN14ClimbThePoleUpC2Ev,
     _GLOBAL__I__ZN11ClimbahDownC2Ev,
@@ -169,7 +169,7 @@ void _GLOBAL__D__ZN7AngleUpC2Ev();
 
 void _GLOBAL__D__ZN11ArcadeDriveC2Ev();
 
-void _GLOBAL__D__ZN17AutonomousCommandC2Ev();
+void _GLOBAL__D_timeout();
 
 void _GLOBAL__D__ZN16ClimbThePoleDownC2Ev();
 
@@ -259,7 +259,7 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN9AngleDownC2Ev,
     _GLOBAL__D__ZN7AngleUpC2Ev,
     _GLOBAL__D__ZN11ArcadeDriveC2Ev,
-    _GLOBAL__D__ZN17AutonomousCommandC2Ev,
+    _GLOBAL__D_timeout,
     _GLOBAL__D__ZN16ClimbThePoleDownC2Ev,
     _GLOBAL__D__ZN14ClimbThePoleUpC2Ev,
     _GLOBAL__D__ZN11ClimbahDownC2Ev,

@@ -8,6 +8,7 @@
 // update. Deleting the comments indicating the section will prevent
 // it from being updated in th future.
 #include "AutonomousCommand.h"
+double timeout = 5;
 AutonomousCommand::AutonomousCommand() {
 	// Use requires() here to declare subsystem dependencies
 	// eg. requires(chassis);
@@ -20,7 +21,9 @@ void AutonomousCommand::Initialize() {
 }
 // Called repeatedly when this Command is scheduled to run
 void AutonomousCommand::Execute() {
-	
+	printf ("BEFORE");
+	Wait(timeout);
+	printf ("AFTER");
 }
 // Make this return true when this Command no longer needs to run execute()
 bool AutonomousCommand::IsFinished() {

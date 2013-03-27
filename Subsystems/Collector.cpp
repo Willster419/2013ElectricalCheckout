@@ -39,7 +39,7 @@ void Collector::GetTheSensors()
 }
 void Collector::SetSpikeFoward()
 {
-	spike1->Set(Relay::kReverse);
+	spike1->Set(Relay::kForward);
 	//WilliesSpeed4 = inSpeed;
 	//collectorMotor->Set( WilliesSpeed4 );
 }

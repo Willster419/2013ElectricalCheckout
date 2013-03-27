@@ -16,10 +16,8 @@ CANJaguar* RobotMap::climberLeftCIM = NULL;
 CANJaguar* RobotMap::climberRightCIM = NULL;
 AnalogChannel* RobotMap::climberMagneticEncoder1 = NULL;
 AnalogChannel* RobotMap::climberMagneticencoder2 = NULL;
-CANJaguar* RobotMap::driveTrainCANJaguar1 = NULL;
-CANJaguar* RobotMap::driveTrainCANJaguar2 = NULL;
-CANJaguar* RobotMap::driveTrainCANJaguar3 = NULL;
-CANJaguar* RobotMap::driveTrainCANJaguar4 = NULL;
+CANJaguar* RobotMap::driveTrainLeftDrive = NULL;
+CANJaguar* RobotMap::driveTrainRightDrive = NULL;
 RobotDrive* RobotMap::driveTrainRobotDrive = NULL;
 AnalogChannel* RobotMap::collectorHowManyDisks = NULL;
 DigitalInput* RobotMap::collectorDiskOnTheBed = NULL;
@@ -52,26 +50,19 @@ void RobotMap::init() {
 	climberMagneticencoder2 = new AnalogChannel(1, 6);
 	lw->AddSensor("Climber", "Magnetic encoder 2", climberMagneticencoder2);
 	
-	driveTrainCANJaguar1 = new CANJaguar(6);
+	driveTrainLeftDrive = new CANJaguar(6);
 	
 	
-	driveTrainCANJaguar2 = new CANJaguar(9);
+	driveTrainRightDrive = new CANJaguar(9);
 	
 	
-	driveTrainCANJaguar3 = new CANJaguar(4);
-	
-	
-	driveTrainCANJaguar4 = new CANJaguar(8);
-	
-	
-	driveTrainRobotDrive = new RobotDrive(driveTrainCANJaguar1, driveTrainCANJaguar2,
-              driveTrainCANJaguar3, driveTrainCANJaguar4);
+	driveTrainRobotDrive = new RobotDrive(driveTrainLeftDrive, driveTrainRightDrive);
 	
 	driveTrainRobotDrive->SetSafetyEnabled(false);
         driveTrainRobotDrive->SetExpiration(0.1);
         driveTrainRobotDrive->SetSensitivity(0.5);
         driveTrainRobotDrive->SetMaxOutput(1.0);
-        driveTrainRobotDrive->SetInvertedMotor(RobotDrive::kRearRightMotor, true);
+        
 	collectorHowManyDisks = new AnalogChannel(1, 3);
 	lw->AddSensor("Collector", "HowManyDisks", collectorHowManyDisks);
 	

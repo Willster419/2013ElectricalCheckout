@@ -25,10 +25,8 @@ public:
 	static CANJaguar* climberRightCIM;
 	static AnalogChannel* climberMagneticEncoder1;
 	static AnalogChannel* climberMagneticencoder2;
-	static CANJaguar* driveTrainCANJaguar1;
-	static CANJaguar* driveTrainCANJaguar2;
-	static CANJaguar* driveTrainCANJaguar3;
-	static CANJaguar* driveTrainCANJaguar4;
+	static CANJaguar* driveTrainLeftDrive;
+	static CANJaguar* driveTrainRightDrive;
 	static RobotDrive* driveTrainRobotDrive;
 	static AnalogChannel* collectorHowManyDisks;
 	static DigitalInput* collectorDiskOnTheBed;
