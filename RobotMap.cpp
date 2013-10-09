@@ -14,9 +14,9 @@ CANJaguar* RobotMap::driveTrainLeftDrive = NULL;
 CANJaguar* RobotMap::driveTrainRightDrive = NULL;
 RobotDrive* RobotMap::driveTrainRobotDrive = NULL;
 DigitalInput* RobotMap::collectorPacManIR = NULL;
-SpeedController* RobotMap::collectorpacManFeeder = NULL;
+SpeedController* RobotMap::collectorPacManFeeder = NULL;
 CANJaguar* RobotMap::shootermainShooter = NULL;
-DigitalInput* RobotMap::shooter1BitIREncoder = NULL;
+DigitalInput* RobotMap::shooteroneBitIREncoder = NULL;
 AnalogChannel* RobotMap::shooterAngleEncoder = NULL;
 SpeedController* RobotMap::shooterAngleVictor = NULL;
 Gyro* RobotMap::angleCheckWithGyroGyro1 = NULL;
@@ -40,14 +40,14 @@ void RobotMap::init() {
 	collectorPacManIR = new DigitalInput(1, 4);
 	lw->AddSensor("Collector", "PacManIR", collectorPacManIR);
 	
-	collectorpacManFeeder = new Victor(1, 3);
-	lw->AddActuator("Collector", "pacManFeeder", (Victor*) collectorpacManFeeder);
+	collectorPacManFeeder = new Victor(1, 3);
+	lw->AddActuator("Collector", "PacManFeeder", (Victor*) collectorPacManFeeder);
 	
 	shootermainShooter = new CANJaguar(5);
 	
 	
-	shooter1BitIREncoder = new DigitalInput(1, 6);
-	lw->AddSensor("Shooter", "1BitIREncoder", shooter1BitIREncoder);
+	shooteroneBitIREncoder = new DigitalInput(1, 6);
+	lw->AddSensor("Shooter", "oneBitIREncoder", shooteroneBitIREncoder);
 	
 	shooterAngleEncoder = new AnalogChannel(1, 2);
 	lw->AddSensor("Shooter", "AngleEncoder", shooterAngleEncoder);

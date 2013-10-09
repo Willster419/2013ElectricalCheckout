@@ -404,7 +404,6 @@
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/AngleCheckWithGyro.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Climber.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Collector.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/DriveTrain.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Shooter.h \
@@ -412,11 +411,6 @@
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AngleUp.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ArcadeDrive.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleDown.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleUp.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbahDown.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbahUp.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimberSensors.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectFaster.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectSlower.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectorSensors.h \
@@ -1235,8 +1229,6 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Climber.h:
-
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/Collector.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/../Subsystems/DriveTrain.h:
@@ -1250,16 +1242,6 @@ C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AngleU
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ArcadeDrive.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/AutonomousCommand.h:
-
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleDown.h:
-
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbThePoleUp.h:
-
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbahDown.h:
-
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimbahUp.h:
-
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/ClimberSensors.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Commands/CollectFaster.h:
 

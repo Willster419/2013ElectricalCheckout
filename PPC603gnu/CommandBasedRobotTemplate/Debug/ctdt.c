@@ -15,16 +15,6 @@ void _GLOBAL__I__ZN11ArcadeDriveC2Ev();
 
 void _GLOBAL__I_timeout();
 
-void _GLOBAL__I__ZN16ClimbThePoleDownC2Ev();
-
-void _GLOBAL__I__ZN14ClimbThePoleUpC2Ev();
-
-void _GLOBAL__I__ZN11ClimbahDownC2Ev();
-
-void _GLOBAL__I__ZN9ClimbahUpC2Ev();
-
-void _GLOBAL__I__ZN14ClimberSensorsC2Ev();
-
 void _GLOBAL__I__ZN13CollectFasterC2Ev();
 
 void _GLOBAL__I__ZN13CollectSlowerC2Ev();
@@ -47,11 +37,9 @@ void _GLOBAL__I__ZN2OIC2Ev();
 
 void _GLOBAL__I__ZN5Robot2oiE();
 
-void _GLOBAL__I__ZN8RobotMap23climberSpeedController1E();
+void _GLOBAL__I__ZN8RobotMap19driveTrainLeftDriveE();
 
 void _GLOBAL__I__ZN18AngleCheckWithGyroC2Ev();
-
-void _GLOBAL__I__ZN7ClimberC2Ev();
 
 void _GLOBAL__I__ZN9CollectorC2Ev();
 
@@ -89,6 +77,8 @@ void _GLOBAL__I__ZN12NetworkTable19PATH_SEPARATOR_CHARE();
 
 void _GLOBAL__I__ZN16NetworkTableMode6ServerE();
 
+void _GLOBAL__I__ZN30AbstractNetworkTableEntryStoreC2ER20TableListenerManager();
+
 void _GLOBAL__I_OutgoingEntryReceiver_NULL();
 
 void _GLOBAL__I__ZN12WriteManagerC2ER30FlushableOutgoingEntryReceiverR15NTThreadManagerR30AbstractNetworkTableEntryStorem();
@@ -114,11 +104,6 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN7AngleUpC2Ev,
     _GLOBAL__I__ZN11ArcadeDriveC2Ev,
     _GLOBAL__I_timeout,
-    _GLOBAL__I__ZN16ClimbThePoleDownC2Ev,
-    _GLOBAL__I__ZN14ClimbThePoleUpC2Ev,
-    _GLOBAL__I__ZN11ClimbahDownC2Ev,
-    _GLOBAL__I__ZN9ClimbahUpC2Ev,
-    _GLOBAL__I__ZN14ClimberSensorsC2Ev,
     _GLOBAL__I__ZN13CollectFasterC2Ev,
     _GLOBAL__I__ZN13CollectSlowerC2Ev,
     _GLOBAL__I__ZN16CollectorSensorsC2Ev,
@@ -130,9 +115,8 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN11report_gyroC2Ev,
     _GLOBAL__I__ZN2OIC2Ev,
     _GLOBAL__I__ZN5Robot2oiE,
-    _GLOBAL__I__ZN8RobotMap23climberSpeedController1E,
+    _GLOBAL__I__ZN8RobotMap19driveTrainLeftDriveE,
     _GLOBAL__I__ZN18AngleCheckWithGyroC2Ev,
-    _GLOBAL__I__ZN7ClimberC2Ev,
     _GLOBAL__I__ZN9CollectorC2Ev,
     _GLOBAL__I_isInverted,
     _GLOBAL__I__ZN7ShooterC2Ev,
@@ -151,6 +135,7 @@ void (*_ctors[])() =
     _GLOBAL__I_AxisCamera_debugFlag,
     _GLOBAL__I__ZN12NetworkTable19PATH_SEPARATOR_CHARE,
     _GLOBAL__I__ZN16NetworkTableMode6ServerE,
+    _GLOBAL__I__ZN30AbstractNetworkTableEntryStoreC2ER20TableListenerManager,
     _GLOBAL__I_OutgoingEntryReceiver_NULL,
     _GLOBAL__I__ZN12WriteManagerC2ER30FlushableOutgoingEntryReceiverR15NTThreadManagerR30AbstractNetworkTableEntryStorem,
     _GLOBAL__I__ZN21ClientConnectionState24DISCONNECTED_FROM_SERVERE,
@@ -170,16 +155,6 @@ void _GLOBAL__D__ZN7AngleUpC2Ev();
 void _GLOBAL__D__ZN11ArcadeDriveC2Ev();
 
 void _GLOBAL__D_timeout();
-
-void _GLOBAL__D__ZN16ClimbThePoleDownC2Ev();
-
-void _GLOBAL__D__ZN14ClimbThePoleUpC2Ev();
-
-void _GLOBAL__D__ZN11ClimbahDownC2Ev();
-
-void _GLOBAL__D__ZN9ClimbahUpC2Ev();
-
-void _GLOBAL__D__ZN14ClimberSensorsC2Ev();
 
 void _GLOBAL__D__ZN13CollectFasterC2Ev();
 
@@ -203,11 +178,9 @@ void _GLOBAL__D__ZN2OIC2Ev();
 
 void _GLOBAL__D__ZN5Robot2oiE();
 
-void _GLOBAL__D__ZN8RobotMap23climberSpeedController1E();
+void _GLOBAL__D__ZN8RobotMap19driveTrainLeftDriveE();
 
 void _GLOBAL__D__ZN18AngleCheckWithGyroC2Ev();
-
-void _GLOBAL__D__ZN7ClimberC2Ev();
 
 void _GLOBAL__D__ZN9CollectorC2Ev();
 
@@ -237,6 +210,8 @@ void _GLOBAL__D_AxisCamera_debugFlag();
 
 void _GLOBAL__D__ZN12NetworkTable19PATH_SEPARATOR_CHARE();
 
+void _GLOBAL__D__ZN30AbstractNetworkTableEntryStoreC2ER20TableListenerManager();
+
 void _GLOBAL__D_OutgoingEntryReceiver_NULL();
 
 void _GLOBAL__D__ZN12WriteManagerC2ER30FlushableOutgoingEntryReceiverR15NTThreadManagerR30AbstractNetworkTableEntryStorem();
@@ -260,11 +235,6 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN7AngleUpC2Ev,
     _GLOBAL__D__ZN11ArcadeDriveC2Ev,
     _GLOBAL__D_timeout,
-    _GLOBAL__D__ZN16ClimbThePoleDownC2Ev,
-    _GLOBAL__D__ZN14ClimbThePoleUpC2Ev,
-    _GLOBAL__D__ZN11ClimbahDownC2Ev,
-    _GLOBAL__D__ZN9ClimbahUpC2Ev,
-    _GLOBAL__D__ZN14ClimberSensorsC2Ev,
     _GLOBAL__D__ZN13CollectFasterC2Ev,
     _GLOBAL__D__ZN13CollectSlowerC2Ev,
     _GLOBAL__D__ZN16CollectorSensorsC2Ev,
@@ -276,9 +246,8 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN11report_gyroC2Ev,
     _GLOBAL__D__ZN2OIC2Ev,
     _GLOBAL__D__ZN5Robot2oiE,
-    _GLOBAL__D__ZN8RobotMap23climberSpeedController1E,
+    _GLOBAL__D__ZN8RobotMap19driveTrainLeftDriveE,
     _GLOBAL__D__ZN18AngleCheckWithGyroC2Ev,
-    _GLOBAL__D__ZN7ClimberC2Ev,
     _GLOBAL__D__ZN9CollectorC2Ev,
     _GLOBAL__D_isInverted,
     _GLOBAL__D__ZN7ShooterC2Ev,
@@ -293,6 +262,7 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN10Ultrasonic9kPingTimeE,
     _GLOBAL__D_AxisCamera_debugFlag,
     _GLOBAL__D__ZN12NetworkTable19PATH_SEPARATOR_CHARE,
+    _GLOBAL__D__ZN30AbstractNetworkTableEntryStoreC2ER20TableListenerManager,
     _GLOBAL__D_OutgoingEntryReceiver_NULL,
     _GLOBAL__D__ZN12WriteManagerC2ER30FlushableOutgoingEntryReceiverR15NTThreadManagerR30AbstractNetworkTableEntryStorem,
     _GLOBAL__D__ZN18NetworkTableServerC2ER16IOStreamProviderR28NetworkTableEntryTypeManagerR15NTThreadManager,

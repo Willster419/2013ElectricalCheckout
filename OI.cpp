@@ -14,11 +14,6 @@
 #include "Commands/AngleUp.h"
 #include "Commands/ArcadeDrive.h"
 #include "Commands/AutonomousCommand.h"
-#include "Commands/ClimbThePoleDown.h"
-#include "Commands/ClimbThePoleUp.h"
-#include "Commands/ClimbahDown.h"
-#include "Commands/ClimbahUp.h"
-#include "Commands/ClimberSensors.h"
 #include "Commands/CollectFaster.h"
 #include "Commands/CollectSlower.h"
 #include "Commands/CollectorSensors.h"
@@ -39,18 +34,10 @@ OI::OI() {
 	collectSlow->WhenPressed(new CollectSlower());
 	collectFast = new JoystickButton(joystick, 12);
 	collectFast->WhenPressed(new CollectFaster());
-	climberArmDown = new JoystickButton(joystick, 9);
-	climberArmDown->WhenPressed(new ClimbahDown());
-	climberArmUp = new JoystickButton(joystick, 10);
-	climberArmUp->WhenPressed(new ClimbahUp());
 	shooterAngleDown = new JoystickButton(joystick, 7);
 	shooterAngleDown->WhenPressed(new AngleDown());
 	shooterAngleUp = new JoystickButton(joystick, 8);
 	shooterAngleUp->WhenPressed(new AngleUp());
-	climberDown = new JoystickButton(joystick, 4);
-	climberDown->WhenPressed(new ClimbThePoleDown());
-	climberUp = new JoystickButton(joystick, 6);
-	climberUp->WhenPressed(new ClimbThePoleUp());
 	shooterDown = new JoystickButton(joystick, 3);
 	shooterDown->WhenPressed(new ShootDriveDown());
 	shooterUp = new JoystickButton(joystick, 5);
@@ -62,7 +49,6 @@ OI::OI() {
 	SmartDashboard::PutData("Random Arcade Drive", new RandomArcadeDrive());
 	SmartDashboard::PutData("report_gyro", new report_gyro());
 	SmartDashboard::PutData("DriveEncoders", new DriveEncoders());
-	SmartDashboard::PutData("ClimberSensors", new ClimberSensors());
 	SmartDashboard::PutData("ShooterSensors", new ShooterSensors());
 	SmartDashboard::PutData("CollectorSensors", new CollectorSensors());
 	SmartDashboard::PutData("Command Group 1", new CommandGroup1());

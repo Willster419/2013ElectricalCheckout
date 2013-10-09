@@ -23,9 +23,9 @@ public:
 	static CANJaguar* driveTrainRightDrive;
 	static RobotDrive* driveTrainRobotDrive;
 	static DigitalInput* collectorPacManIR;
-	static SpeedController* collectorpacManFeeder;
+	static SpeedController* collectorPacManFeeder;
 	static CANJaguar* shootermainShooter;
-	static DigitalInput* shooter1BitIREncoder;
+	static DigitalInput* shooteroneBitIREncoder;
 	static AnalogChannel* shooterAngleEncoder;
 	static SpeedController* shooterAngleVictor;
 	static Gyro* angleCheckWithGyroGyro1;

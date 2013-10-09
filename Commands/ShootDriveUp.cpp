@@ -24,7 +24,6 @@ void ShootDriveUp::Initialize() {
 // Called repeatedly when this Command is scheduled to run
 void ShootDriveUp::Execute() {
 	RobotMap::shootermainShooter->Set(Robot::shooter->GetSpeed());
-	RobotMap::shootersupportShooter->Set(Robot::shooter->GetSpeed()*-1);
 }
 // Make this return true when this Command no longer needs to run execute()
 bool ShootDriveUp::IsFinished() {

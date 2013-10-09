@@ -404,7 +404,6 @@
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/../Subsystems/AngleCheckWithGyro.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
-  C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/../Subsystems/Climber.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/../Subsystems/Collector.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/../Subsystems/DriveTrain.h \
   C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/../Subsystems/Shooter.h \
@@ -1217,8 +1216,6 @@ C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../C
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
-
-C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/../Subsystems/Climber.h:
 
 C:/WindRiver/workspace/frcteam1073-electrical.electricalcheckout/Subsystems/../Commands/../Subsystems/Collector.h:
 

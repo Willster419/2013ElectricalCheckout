@@ -18,7 +18,8 @@
  */
 class Collector: public Subsystem {
 private:
-	float test1;
+	float pacManVoltage;
+	float WilliesSpeed2;
 	// It's desirable that everything possible under private except
 	// for methods that implement subsystem capabilities
 public:
@@ -29,7 +30,7 @@ public:
 	Collector();
 	void InitDefaultCommand();
 	void GetTheSensors();
-	void SetSpikeFoward();
-	void SetSpikeOff();
+	void SetSpeed(float vicSpeed2);
+	float GetSpeed();
 };
 #endif
