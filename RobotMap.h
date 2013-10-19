@@ -27,6 +27,7 @@ public:
 	static DigitalInput* collectorPacManIR;
 	static SpeedController* collectorPacManFeeder;
 	static CANJaguar* shootermainShooter;
+	static CANJaguar* shooterTurret;
 	static DigitalInput* shooteroneBitIREncoder;
 	static AnalogChannel* shooterAngleEncoder;
 	static SpeedController* shooterAngleVictor;

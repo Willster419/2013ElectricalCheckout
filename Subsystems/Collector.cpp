@@ -33,17 +33,20 @@ void Collector::InitDefaultCommand() {
 // here. Call these from Commands.
 void Collector::GetTheSensors()
 {
-	float WillieHazSwag = pacManIR->Get();
-	float pacManVoltage = pacManFeeder->Get();
-	SmartDashboard::PutNumber("disk on the bed", (double) WillieHazSwag);
-	SmartDashboard::PutNumber("collector victor", (double) pacManVoltage);
+	printf("this feature has been disabled/n");
+	//float WillieHazSwag = pacManIR->Get();
+	//float pacManVoltage = pacManFeeder->Get();
+	//SmartDashboard::PutNumber("disk on the bed", (double) WillieHazSwag);
+	//SmartDashboard::PutNumber("collector victor", (double) pacManVoltage);
 }
 void Collector::SetSpeed(float vicSpeed2)
 {
-	WilliesSpeed2 = vicSpeed2;
-	pacManFeeder->Set( WilliesSpeed2 );
+	printf("this feature has been disabled/n");
+	//WilliesSpeed2 = vicSpeed2;
+	//pacManFeeder->Set( WilliesSpeed2 );
 }
 float Collector::GetSpeed()
 {
+	printf("this feature has been disabled/n");
 	return ( WilliesSpeed2 );
 }
