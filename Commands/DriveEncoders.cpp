@@ -27,10 +27,11 @@ void DriveEncoders::Execute() {
 	char buffer[1000];
 	static int count = 0;
 	float battery = drive->GetBatteryVoltage();
+	//float joyX = drive->GetStickAxis(1,x);
 	sprintf(buffer, "%d %f *********************************", count++, battery);
 	dash.AddString(buffer);
 	dash.Finalize();
-	printf ("Wut Up\n");
+	//printf ("Wut Up\n");
 	
 }
 // Make this return true when this Command no longer needs to run execute()

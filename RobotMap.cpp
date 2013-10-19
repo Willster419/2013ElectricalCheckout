@@ -35,6 +35,8 @@ void RobotMap::init() {
 	
 	driveTrainLeft0Drive = new CANJaguar(4);
 	
+	//add 7 jag
+	
 	driveTrainRobotDrive = new RobotDrive(driveTrainLeftDrive, driveTrainRightDrive, driveTrainRight0Drive, driveTrainLeft0Drive);
 	
 	driveTrainRobotDrive->SetSafetyEnabled(false);
