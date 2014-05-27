@@ -246,7 +246,7 @@
     <buildtargets>
         <buildtarget buildtool="Linker" name="CommandBasedRobotTemplate" passed="false" targetname="CommandBasedRobotTemplate">
             <contents>
-                <folder name="/frcteam1073-electrical.electricalcheckout" recursive="true"/>
+                <folder name="/2013ElectricalCheckout" recursive="true"/>
             </contents>
         </buildtarget>
     </buildtargets>
